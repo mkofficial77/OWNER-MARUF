@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>WINNER MARUF VIP HACK</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Inter & Orbitron -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Orbitron:wght@500;700;800;900&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #050608;
+            font-family: 'Inter', sans-serif;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        /* Fullscreen Backing Frame */
+        .full-screen-frame {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100dvh;
+            z-index: 1;
+            border: none;
+            outline: none;
+        }
+
+        .full-screen-frame iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .font-orbitron {
+            font-family: 'Orbitron', monospace;
+        }
+
+        /* Gold Glassmorphic Panel Styling */
+        .gold-glass {
+            background: linear-gradient(165deg, rgba(10, 12, 16, 0.95) 0%, rgba(6, 8, 12, 0.98) 50%, rgba(8, 10, 14, 0.95) 100%);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(212, 175, 55, 0.4);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+        }
+
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #FFF8DC 0%, #D4AF37 50%, #996515 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .gold-btn {
+            background: linear-gradient(135deg, #f3e5ab 0%, #d4af37 50%, #aa7c11 100%);
+            color: #000;
+            font-weight: 800;
+            box-shadow: 0 4px 18px rgba(212, 175, 55, 0.45);
+            transition: transform 0.15s ease;
+        }
+
+        .gold-btn:active {
+            transform: scale(0.95);
+        }
+
+        /* Custom Scrollbar for History Log */
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.4);
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: rgba(212, 175, 55, 0.6);
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- FULLSCREEN REGISTRATION BACKGROUND IFRAME -->
+    <div class="full-screen-frame">
+        <iframe src="https://dkwin9.com/#/register?invitationCode=763462176733" id="bgFrame" title="DKWIN Registration"></iframe>
+    </div>
+
+    <!-- LOGIN OVERLAY -->
+    <div id="loginOverlay" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-md">
+        <div class="gold-glass w-full max-w-sm rounded-2xl p-6 relative overflow-hidden flex flex-col items-center border border-amber-500/50 shadow-2xl">
+            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent"></div>
+            
+            <div class="w-16 h-16 rounded-full bg-amber-500/10 border border-amber-400/40 flex items-center justify-center mb-4 text-amber-400 text-3xl shadow-lg">
+                <i class="fa-solid fa-crown"></i>
+            </div>
+
+            <h1 class="text-xl sm:text-2xl font-extrabold text-center font-orbitron gold-gradient-text tracking-wider mb-1">
+                MARUF VIP HACK LOGIN
+            </h1>
+            <p class="text-[11px] text-amber-300/80 font-semibold mb-6 tracking-widest uppercase">
+                Ultra WinGo 30S Prediction Engine
+            </p>
+
+            <div class="w-full space-y-4">
+                <div class="relative">
+                    <i class="fa-solid fa-key absolute left-4 top-1/2 -translate-y-1/2 text-amber-400/80"></i>
+                    <input type="password" id="passInput" placeholder="Enter VIP Key (999)" 
+                           class="w-full bg-black/70 border border-amber-500/40 rounded-xl py-3 pl-11 pr-4 text-center font-orbitron text-amber-300 placeholder-amber-600/60 focus:outline-none focus:border-amber-400 focus:ring-1 focus:ring-amber-400 transition-all text-lg tracking-widest">
+                </div>
+
+                <button onclick="handleLogin()" class="w-full py-3.5 rounded-xl gold-btn text-sm uppercase tracking-wider flex items-center justify-center gap-2 font-bold">
+                    <i class="fa-solid fa-bolt"></i> Access VIP Panel
+                </button>
+            </div>
+
+            <div id="loginError" class="hidden mt-3 text-red-400 text-xs text-center font-semibold bg-red-950/50 border border-red-500/40 rounded-lg py-2 px-3 w-full">
+                <i class="fa-solid fa-triangle-exclamation mr-1"></i> ভুল পাসওয়ার্ড! সঠিক পাসওয়ার্ড হলো 999
+            </div>
+
+            <div class="mt-6 text-center border-t border-amber-500/20 pt-4 w-full">
+                <p class="text-xs text-gray-400 mb-2">অ্যাকাউন্ট নেই? এখনই রেজিস্টার করুন:</p>
+                <a href="https://dkwin9.com/#/register?invitationCode=763462176733" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-2 px-4 py-2 rounded-lg gold-btn text-xs font-bold uppercase tracking-wider hover:opacity-90 transition-all">
+                    <i class="fa-solid fa-user-plus"></i> DKWIN Register
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FLOATING PREDICTION PANEL -->
+    <div id="floatingPanel" class="hidden fixed z-40 w-[240px] sm:w-[250px] rounded-2xl gold-glass overflow-hidden select-none shadow-2xl">
+        
+        <!-- DRAGGABLE HEADER BAR -->
+        <div id="panelHeader" class="bg-gradient-to-r from-amber-950/95 via-black to-amber-950/95 px-2.5 py-1.5 flex items-center justify-between border-b border-amber-500/40 cursor-move active:cursor-grabbing">
+            <div class="flex items-center gap-1.5">
+                <span class="relative flex h-2 w-2">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
+                </span>
+                <span class="font-orbitron font-extrabold text-[11px] text-amber-300 tracking-wider">MARUF VIP HACK</span>
+            </div>
+            <div class="flex items-center gap-1">
+                <button onclick="toggleAudioMute()" id="muteBtn" title="Toggle Voice" class="text-amber-400/80 hover:text-amber-300 text-xs p-1 rounded hover:bg-amber-500/10">
+                    <i class="fa-solid fa-volume-high"></i>
+                </button>
+                <button onclick="minimizePanel()" title="Minimize" class="text-amber-400/80 hover:text-amber-300 text-xs p-1 rounded hover:bg-amber-500/10">
+                    <i class="fa-solid fa-minus"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- MAIN PANEL CONTENT -->
+        <div class="p-2 space-y-2">
+            
+            <!-- PERIOD & TIMER SECTION -->
+            <div class="grid grid-cols-2 gap-1.5 bg-black/80 p-2 rounded-lg border border-amber-500/30">
+                <div class="flex flex-col justify-center">
+                    <span class="text-[8px] uppercase tracking-wider text-amber-400/70 font-semibold">Period Issue</span>
+                    <span id="periodDisplay" class="font-orbitron text-[11px] font-bold text-amber-200 truncate">Syncing...</span>
+                </div>
+                <div class="flex flex-col items-end justify-center">
+                    <span class="text-[8px] uppercase tracking-wider text-amber-400/70 font-semibold">Live Timer</span>
+                    <div class="flex items-center gap-1 font-orbitron text-sm font-extrabold text-amber-400">
+                        <i class="fa-regular fa-clock text-[10px] text-amber-400/70"></i>
+                        <span id="timerDisplay">00:30</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PREDICTION DISPLAY CARD -->
+            <div class="bg-gradient-to-b from-black/95 to-amber-950/40 p-2 rounded-lg border border-amber-500/40 text-center relative overflow-hidden space-y-1.5">
+                
+                <div class="flex items-center justify-between text-[9px] text-amber-300/80 font-bold uppercase tracking-wider border-b border-amber-500/20 pb-1">
+                    <span>⚡ AI PREDICTION ⚡</span>
+                    <span id="lastResultStatus" class="font-orbitron font-extrabold px-1.5 py-0.5 rounded text-[8px] bg-amber-500/20 text-amber-300 border border-amber-500/30">
+                        WAITING
+                    </span>
+                </div>
+
+                <!-- PREDICTED SIZE & COLOR GRID -->
+                <div class="grid grid-cols-2 gap-1.5">
+                    <!-- Size Box -->
+                    <div id="predictedSizeCard" class="py-2 px-1.5 rounded-lg bg-black/80 border border-amber-500/30 flex flex-col items-center justify-center">
+                        <span class="text-[8px] text-gray-400 uppercase font-semibold mb-0.5">Big / Small</span>
+                        <span id="predictedSizeText" class="font-orbitron font-black text-xs text-amber-300 uppercase tracking-wide">
+                            ANALYZING
+                        </span>
+                    </div>
+
+                    <!-- Color Box -->
+                    <div id="predictedColorCard" class="py-2 px-1.5 rounded-lg bg-black/80 border border-amber-500/30 flex flex-col items-center justify-center">
+                        <span class="text-[8px] text-gray-400 uppercase font-semibold mb-0.5">Predicted Color</span>
+                        <div class="flex items-center gap-1">
+                            <div id="predictedColorDot" class="w-2.5 h-2.5 rounded-full bg-gray-500 border border-white/20"></div>
+                            <span id="predictedColorText" class="font-orbitron font-black text-[11px] text-gray-300 uppercase tracking-wide">
+                                ANALYZING
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- POTENTIAL JACKPOT NUMBER DISPLAY -->
+                <div class="bg-black/90 border border-amber-500/40 rounded-lg p-1.5 flex items-center justify-between">
+                    <div class="flex items-center gap-1.5">
+                        <i class="fa-solid fa-gem text-amber-400 text-xs"></i>
+                        <div class="flex flex-col text-left">
+                            <span class="text-[9px] font-bold text-amber-300">সম্ভাব্য জ্যাকপট নম্বর</span>
+                            <span class="text-[7px] text-gray-400">High Probability Jackpot (0-9)</span>
+                        </div>
+                    </div>
+                    <div id="jackpotNumDisplay" class="w-7 h-7 rounded-md bg-gradient-to-br from-amber-400 to-amber-600 text-black font-orbitron font-black text-sm flex items-center justify-center shadow-[0_0_10px_rgba(212,175,55,0.8)] border border-amber-200">
+                        ?
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- PERMANENT BOTTOM WIN HISTORY BOARD -->
+            <div class="bg-black/90 rounded-lg border border-amber-500/35 p-2 space-y-1">
+                <div class="flex items-center justify-between border-b border-amber-500/20 pb-1">
+                    <div class="flex items-center gap-1">
+                        <i class="fa-solid fa-chart-line text-amber-400 text-[10px]"></i>
+                        <span class="text-[10px] font-extrabold text-amber-300 uppercase tracking-wider">
+                            লাইভ হিস্ট্রি
+                        </span>
+                    </div>
+                    <div class="flex items-center gap-1 text-[8px] font-orbitron font-bold">
+                        <span class="text-emerald-400 bg-emerald-950/60 px-1 py-0.5 rounded border border-emerald-500/30">
+                            জয়: <span id="statWins">0</span>
+                        </span>
+                        <span class="text-rose-400 bg-rose-950/60 px-1 py-0.5 rounded border border-rose-500/30">
+                            হার: <span id="statLosses">0</span>
+                        </span>
+                        <span class="text-amber-300 bg-amber-950/60 px-1 py-0.5 rounded border border-amber-500/30">
+                            <span id="statWinRate">0</span>%
+                        </span>
+                    </div>
+                </div>
+
+                <div id="historyContainer" class="custom-scrollbar max-h-36 overflow-y-auto space-y-1 pr-0.5">
+                    <div class="text-center text-[9px] text-amber-400/60 py-2 italic">
+                        <i class="fa-solid fa-spinner animate-spin mr-1"></i> লাইভ পিরিয়ড ডাটা লোড হচ্ছে...
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- HIDE / SHOW FLOATING BUTTON -->
+    <button id="toggleBtn" onclick="togglePanelVisibility()" 
+            class="hidden fixed bottom-4 right-4 z-50 w-11 h-11 rounded-full gold-glass flex items-center justify-center text-amber-400 border border-amber-400/50 shadow-xl active:scale-95 transition-all">
+        <i class="fa-solid fa-crown text-base"></i>
+    </button>
+
+    <script>
+        const APP_STATE = {
+            authenticated: false,
+            audioMuted: false,
+            voiceInitialized: false,
+            currentPeriod: null,
+            tradeExecutedForPeriod: false,
+            
+            currentPrediction: {
+                color: 'GREEN',
+                size: 'BIG',
+                jackpotNumber: 7
+            },
+
+            activeTrade: null,
+            totalWins: 0,
+            totalLosses: 0,
+            recentResultsList: [],
+            history: []
+        };
+
+        const WINGO_API_URL = "https://draw.ar-lottery01.com/WinGo/WinGo_30S/GetHistoryIssuePage.json";
+
+        function speakBangla(text) {
+            if (APP_STATE.audioMuted) return;
+            try {
+                if ('speechSynthesis' in window) {
+                    window.speechSynthesis.cancel();
+                    const utterance = new SpeechSynthesisUtterance(text);
+                    utterance.lang = 'bn-BD';
+                    utterance.rate = 1.0;
+                    
+                    const voices = window.speechSynthesis.getVoices();
+                    const bnVoice = voices.find(v => v.lang.includes('bn') || v.lang.includes('BD'));
+                    if (bnVoice) utterance.voice = bnVoice;
+
+                    window.speechSynthesis.speak(utterance);
+                }
+            } catch (e) {
+                console.warn("Speech synthesis error:", e);
+            }
+        }
+
+        // সাইটে ঢোকার সাথে সাথে ভয়েস প্লে করা
+        function triggerWelcomeVoice() {
+            if (!APP_STATE.voiceInitialized) {
+                APP_STATE.voiceInitialized = true;
+                speakBangla("মারুফ ভিআইপি হ্যাকে আপনাদের স্বাগতম");
+            }
+        }
+
+        document.addEventListener('touchstart', triggerWelcomeVoice, { once: true });
+        document.addEventListener('click', triggerWelcomeVoice, { once: true });
+
+        function handleLogin() {
+            triggerWelcomeVoice(); // ক্লিক বা টাচ নিশ্চিত করা
+            const pwd = document.getElementById('passInput').value.trim();
+            const errorBanner = document.getElementById('loginError');
+
+            if (pwd === "999") {
+                APP_STATE.authenticated = true;
+                document.getElementById('loginOverlay').classList.add('hidden');
+                document.getElementById('floatingPanel').classList.remove('hidden');
+                document.getElementById('toggleBtn').classList.remove('hidden');
+                
+                speakBangla("পাসওয়ার্ড সঠিক হয়েছে। স্বাগতম!");
+                initFloatingPanelPosition();
+                startSyncLoop();
+            } else {
+                errorBanner.classList.remove('hidden');
+                speakBangla("ভুল পাসওয়ার্ড"); // ভুল পাসওয়ার্ডের ভয়েস
+            }
+        }
+
+        /* Enter Key support for Login */
+        document.getElementById('passInput').addEventListener('keyup', function(event) {
+            if (event.key === "Enter") {
+                handleLogin();
+            }
+        });
+
+        function getColorFromNumber(num) {
+            const n = parseInt(num, 10);
+            if (n === 0 || n === 5) return 'VIOLET';
+            if ([1, 3, 7, 9].includes(n)) return 'GREEN';
+            if ([2, 4, 6, 8].includes(n)) return 'RED';
+            return 'GREEN';
+        }
+
+        function getSizeFromNumber(num) {
+            const n = parseInt(num, 10);
+            return n >= 5 ? 'BIG' : 'SMALL';
+        }
+
+        function getBanglaColorName(color) {
+            switch(color) {
+                case 'GREEN': return 'সবুজ';
+                case 'RED': return 'লাল';
+                case 'VIOLET': return 'বেগুনি';
+                default: return color;
+            }
+        }
+
+        function getBanglaSizeName(size) {
+            return size === 'BIG' ? 'বিগ' : 'স্মল';
+        }
+
+        function analyzePredictions(list) {
+            if (!list || list.length < 5) {
+                return { color: 'GREEN', size: 'BIG', jackpotNumber: 7 };
+            }
+
+            const items = list.slice(0, 15);
+            const colors = items.map(item => getColorFromNumber(item.number));
+            const sizes = items.map(item => getSizeFromNumber(item.number));
+            const numbers = items.map(item => parseInt(item.number, 10));
+
+            let predictedColor = 'GREEN';
+            let predictedSize = 'BIG';
+            let jackpotNum = 7;
+
+            const greenCount = colors.filter(c => c === 'GREEN').length;
+            const redCount = colors.filter(c => c === 'RED').length;
+            if (colors[0] !== colors[1] && colors[1] !== colors[2]) {
+                predictedColor = (colors[0] === 'GREEN') ? 'RED' : 'GREEN';
+            } else {
+                predictedColor = (greenCount >= redCount) ? 'GREEN' : 'RED';
+            }
+
+            const bigCount = sizes.filter(s => s === 'BIG').length;
+            if (sizes[0] !== sizes[1] && sizes[1] !== sizes[2]) {
+                predictedSize = (sizes[0] === 'BIG') ? 'SMALL' : 'BIG';
+            } else {
+                predictedSize = (bigCount >= 7) ? 'SMALL' : 'BIG';
+            }
+
+            const validNumbersForColorAndSize = numbers.filter(n => {
+                const c = getColorFromNumber(n);
+                const s = getSizeFromNumber(n);
+                return (c === predictedColor || c === 'VIOLET') && (s === predictedSize);
+            });
+
+            if (validNumbersForColorAndSize.length > 0) {
+                jackpotNum = validNumbersForColorAndSize[Math.floor(Math.random() * validNumbersForColorAndSize.length)];
+            } else {
+                if (predictedSize === 'BIG') {
+                    jackpotNum = [5, 6, 7, 8, 9][Math.floor(Math.random() * 5)];
+                } else {
+                    jackpotNum = [0, 1, 2, 3, 4][Math.floor(Math.random() * 5)];
+                }
+            }
+
+            return { 
+                color: predictedColor, 
+                size: predictedSize, 
+                jackpotNumber: jackpotNum 
+            };
+        }
+
+        function executeBackgroundTrade(period, prediction) {
+            if (APP_STATE.tradeExecutedForPeriod) return;
+
+            APP_STATE.tradeExecutedForPeriod = true;
+            APP_STATE.activeTrade = {
+                period: period,
+                predictedColor: prediction.color,
+                predictedSize: prediction.size,
+                predictedJackpot: prediction.jackpotNumber
+            };
+
+            const colorBn = getBanglaColorName(prediction.color);
+            const sizeBn = getBanglaSizeName(prediction.size);
+            speakBangla(`প্রেডিকশন: ${sizeBn}, ${colorBn}, সম্ভাব্য জ্যাকপট নম্বর ${prediction.jackpotNumber}`);
+        }
+
+        function evaluateBackgroundTradeResult(actualNum, actualColor, actualSize) {
+            if (!APP_STATE.activeTrade) return;
+
+            const trade = APP_STATE.activeTrade;
+            const colorMatch = (trade.predictedColor === actualColor);
+            const sizeMatch = (trade.predictedSize === actualSize);
+            const jackpotMatch = (trade.predictedJackpot === actualNum);
+
+            const isWin = colorMatch || sizeMatch || jackpotMatch;
+            let statusStr = "LOSS";
+
+            const resultStatusBadge = document.getElementById('lastResultStatus');
+
+            if (isWin) {
+                APP_STATE.totalWins++;
+                statusStr = "WIN";
+
+                resultStatusBadge.innerText = "WIN ✓";
+                resultStatusBadge.className = "font-orbitron font-extrabold px-1.5 py-0.5 rounded text-[8px] bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 animate-pulse";
+
+                speakBangla("জয় হয়েছে!");
+            } else {
+                APP_STATE.totalLosses++;
+                statusStr = "LOSS";
+
+                resultStatusBadge.innerText = "LOSS ✗";
+                resultStatusBadge.className = "font-orbitron font-extrabold px-1.5 py-0.5 rounded text-[8px] bg-rose-500/20 text-rose-400 border border-rose-500/40";
+
+                speakBangla("হার হয়েছে");
+            }
+
+            APP_STATE.history.unshift({
+                period: trade.period,
+                predictedColor: trade.predictedColor,
+                predictedSize: trade.predictedSize,
+                predictedJackpot: trade.predictedJackpot,
+                actualNumber: actualNum,
+                actualColor: actualColor,
+                actualSize: actualSize,
+                status: statusStr
+            });
+
+            if (APP_STATE.history.length > 25) APP_STATE.history.pop();
+
+            APP_STATE.activeTrade = null;
+            APP_STATE.tradeExecutedForPeriod = false;
+
+            renderPermanentHistoryUI();
+        }
+
+        async function fetchWinGoData() {
+            if (!APP_STATE.authenticated) return;
+            try {
+                let data = null;
+                try {
+                    const res = await fetch(WINGO_API_URL + '?t=' + Date.now());
+                    if (res.ok) data = await res.json();
+                } catch (e) {
+                    const proxyUrl = "https://corsproxy.io/?" + encodeURIComponent(WINGO_API_URL);
+                    const resProxy = await fetch(proxyUrl);
+                    if (resProxy.ok) data = await resProxy.json();
+                }
+
+                if (data && data.data && data.data.list && data.data.list.length > 0) {
+                    processWinGoData(data.data.list);
+                } else {
+                    fallbackLocalTimer();
+                }
+            } catch (err) {
+                fallbackLocalTimer();
+            }
+        }
+
+        function processWinGoData(list) {
+            APP_STATE.recentResultsList = list;
+            const latestItem = list[0];
+            const lastPeriodNum = String(latestItem.issueNumber || latestItem.period);
+            const actualNum = parseInt(latestItem.number, 10);
+            const actualColor = getColorFromNumber(actualNum);
+            const actualSize = getSizeFromNumber(actualNum);
+
+            const nextPeriod = String(BigInt(lastPeriodNum) + 1n);
+
+            const now = new Date();
+            const totalSeconds = now.getUTCSeconds() + (now.getUTCMilliseconds() / 1000);
+            const remSeconds = Math.max(0, Math.floor(30 - (totalSeconds % 30)));
+
+            document.getElementById('periodDisplay').innerText = `#${nextPeriod.slice(-6)}`;
+            document.getElementById('timerDisplay').innerText = `00:${remSeconds < 10 ? '0' + remSeconds : remSeconds}`;
+
+            if (remSeconds <= 24 && remSeconds >= 5 && !APP_STATE.tradeExecutedForPeriod) {
+                executeBackgroundTrade(nextPeriod, APP_STATE.currentPrediction);
+            }
+
+            if (APP_STATE.currentPeriod !== nextPeriod) {
+                if (APP_STATE.currentPeriod && APP_STATE.activeTrade) {
+                    evaluateBackgroundTradeResult(actualNum, actualColor, actualSize);
+                }
+
+                APP_STATE.currentPeriod = nextPeriod;
+                APP_STATE.tradeExecutedForPeriod = false;
+
+                const pred = analyzePredictions(list);
+                APP_STATE.currentPrediction = pred;
+
+                updateFloatingPanelUI(pred);
+            }
+        }
+
+        function fallbackLocalTimer() {
+            const now = new Date();
+            const sec = now.getUTCSeconds();
+            const rem = 30 - (sec % 30);
+            document.getElementById('timerDisplay').innerText = `00:${rem < 10 ? '0' + rem : rem}`;
+            
+            if (!APP_STATE.currentPeriod) {
+                const mockPeriod = "20261003" + Math.floor(Date.now() / 30000);
+                APP_STATE.currentPeriod = mockPeriod;
+                document.getElementById('periodDisplay').innerText = `#${mockPeriod.slice(-6)}`;
+                
+                const fallbackPred = { color: 'GREEN', size: 'BIG', jackpotNumber: 7 };
+                APP_STATE.currentPrediction = fallbackPred;
+                updateFloatingPanelUI(fallbackPred);
+            }
+        }
+
+        function updateFloatingPanelUI(pred) {
+            const cardDot = document.getElementById('predictedColorDot');
+            const colorText = document.getElementById('predictedColorText');
+            const sizeText = document.getElementById('predictedSizeText');
+            const jackpotDisplay = document.getElementById('jackpotNumDisplay');
+
+            colorText.innerText = pred.color;
+            if (pred.color === 'GREEN') {
+                cardDot.className = "w-2.5 h-2.5 rounded-full bg-emerald-500 shadow-[0_0_8px_#10b981]";
+                colorText.className = "font-orbitron font-black text-[11px] text-emerald-400 uppercase tracking-wide";
+            } else if (pred.color === 'RED') {
+                cardDot.className = "w-2.5 h-2.5 rounded-full bg-rose-500 shadow-[0_0_8px_#f43f5e]";
+                colorText.className = "font-orbitron font-black text-[11px] text-rose-400 uppercase tracking-wide";
+            } else {
+                cardDot.className = "w-2.5 h-2.5 rounded-full bg-purple-500 shadow-[0_0_8px_#a855f7]";
+                colorText.className = "font-orbitron font-black text-[11px] text-purple-400 uppercase tracking-wide";
+            }
+
+            sizeText.innerText = pred.size;
+            sizeText.className = pred.size === 'BIG' ? "font-orbitron font-black text-xs text-amber-300 uppercase tracking-wide" : "font-orbitron font-black text-xs text-sky-300 uppercase tracking-wide";
+
+            jackpotDisplay.innerText = pred.jackpotNumber;
+        }
+
+        function renderPermanentHistoryUI() {
+            const container = document.getElementById('historyContainer');
+            const statWins = document.getElementById('statWins');
+            const statLosses = document.getElementById('statLosses');
+            const statWinRate = document.getElementById('statWinRate');
+
+            statWins.innerText = APP_STATE.totalWins;
+            statLosses.innerText = APP_STATE.totalLosses;
+            const total = APP_STATE.totalWins + APP_STATE.totalLosses;
+            const winRate = total > 0 ? ((APP_STATE.totalWins / total) * 100).toFixed(0) : 0;
+            statWinRate.innerText = winRate;
+
+            if (!APP_STATE.history || APP_STATE.history.length === 0) {
+                container.innerHTML = `<div class="text-center text-[9px] text-amber-400/60 py-2 italic">এখনও কোনো হিস্ট্রি ডাটা নেই...</div>`;
+                return;
+            }
+
+            container.innerHTML = APP_STATE.history.map(item => {
+                const isWin = item.status === 'WIN';
+                const statusBadge = isWin 
+                    ? '<span class="px-1 py-0.5 rounded font-bold text-[8px] bg-emerald-500/20 text-emerald-400 border border-emerald-500/40">জয় ✓</span>' 
+                    : '<span class="px-1 py-0.5 rounded font-bold text-[8px] bg-rose-500/20 text-rose-400 border border-rose-500/40">হার ✗</span>';
+                
+                const actualColorDot = item.actualColor === 'GREEN' ? 'bg-emerald-500' : (item.actualColor === 'RED' ? 'bg-rose-500' : 'bg-purple-500');
+
+                return `
+                    <div class="flex items-center justify-between p-1 rounded bg-black/80 border border-amber-500/20 text-[9px]">
+                        <div class="flex flex-col">
+                            <span class="font-orbitron font-bold text-[9px] text-amber-300">#${item.period.slice(-4)}</span>
+                            <span class="text-[8px] text-gray-400">
+                                <span class="text-amber-200 font-semibold">${item.predictedSize}/${item.predictedColor}/#${item.predictedJackpot}</span>
+                            </span>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <div class="flex items-center gap-1 bg-amber-950/40 px-1 py-0.5 rounded border border-amber-500/20">
+                                <span class="w-1.5 h-1.5 rounded-full ${actualColorDot}"></span>
+                                <span class="font-orbitron font-bold text-[8px] text-gray-200">#${item.actualNumber}</span>
+                            </div>
+                            ${statusBadge}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function startSyncLoop() {
+            fetchWinGoData();
+            setInterval(fetchWinGoData, 1500);
+        }
+
+        function togglePanelVisibility() {
+            document.getElementById('floatingPanel').classList.toggle('hidden');
+        }
+
+        function minimizePanel() {
+            document.getElementById('floatingPanel').classList.add('hidden');
+        }
+
+        function toggleAudioMute() {
+            APP_STATE.audioMuted = !APP_STATE.audioMuted;
+            const btn = document.getElementById('muteBtn');
+            btn.innerHTML = APP_STATE.audioMuted 
+                ? `<i class="fa-solid fa-volume-xmark text-red-400"></i>`
+                : `<i class="fa-solid fa-volume-high"></i>`;
+        }
+
+        function initFloatingPanelPosition() {
+            const panel = document.getElementById('floatingPanel');
+            const initialLeft = Math.max(10, (window.innerWidth - 250) / 2);
+            panel.style.left = initialLeft + 'px';
+            panel.style.top = '15px';
+        }
+
+        /* DRAG FUNCTIONALITY */
+        const panel = document.getElementById('floatingPanel');
+        const header = document.getElementById('panelHeader');
+
+        let isDragging = false;
+        let startX, startY, initialLeft, initialTop;
+
+        function onDragStart(e) {
+            isDragging = true;
+            const clientX = e.type === 'touchstart' ? e.touches[0].clientX : e.clientX;
+            const clientY = e.type === 'touchstart' ? e.touches[0].clientY : e.clientY;
+
+            startX = clientX;
+            startY = clientY;
+
+            const rect = panel.getBoundingClientRect();
+            initialLeft = rect.left;
+            initialTop = rect.top;
+
+            document.addEventListener('mousemove', onDragMove);
+            document.addEventListener('mouseup', onDragEnd);
+            document.addEventListener('touchmove', onDragMove, { passive: false });
+            document.addEventListener('touchend', onDragEnd);
+        }
+
+        function onDragMove(e) {
+            if (!isDragging) return;
+            if (e.cancelable) e.preventDefault();
+
+            const clientX = e.type === 'touchmove' ? e.touches[0].clientX : e.clientX;
+            const clientY = e.type === 'touchmove' ? e.touches[0].clientY : e.clientY;
+
+            const deltaX = clientX - startX;
+            const deltaY = clientY - startY;
+
+            let newLeft = initialLeft + deltaX;
+            let newTop = initialTop + deltaY;
+
+            const maxLeft = window.innerWidth - panel.offsetWidth - 5;
+            const maxTop = window.innerHeight - panel.offsetHeight - 5;
+
+            newLeft = Math.max(5, Math.min(newLeft, maxLeft));
+            newTop = Math.max(5, Math.min(newTop, maxTop));
+
+            panel.style.left = newLeft + 'px';
+            panel.style.top = newTop + 'px';
+        }
+
+        function onDragEnd() {
+            isDragging = false;
+            document.removeEventListener('mousemove', onDragMove);
+            document.removeEventListener('mouseup', onDragEnd);
+            document.removeEventListener('touchmove', onDragMove);
+            document.removeEventListener('touchend', onDragEnd);
+        }
+
+        header.addEventListener('mousedown', onDragStart);
+        header.addEventListener('touchstart', onDragStart, { passive: false });
+
+        window.addEventListener('resize', () => {
+            if (!panel.classList.contains('hidden')) {
+                const rect = panel.getBoundingClientRect();
+                const maxLeft = window.innerWidth - panel.offsetWidth - 5;
+                const maxTop = window.innerHeight - panel.offsetHeight - 5;
+
+                if (rect.left > maxLeft) panel.style.left = Math.max(5, maxLeft) + 'px';
+                if (rect.top > maxTop) panel.style.top = Math.max(5, maxTop) + 'px';
+            }
+        });
+
+        // অটো ট্রাই অন পেজ লোড
+        window.addEventListener('DOMContentLoaded', () => {
+            setTimeout(() => {
+                triggerWelcomeVoice();
+            }, 500);
+        });
+    </script>
+</body>
+</html>
